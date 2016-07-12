@@ -10,7 +10,7 @@ title: NICLabs Development
 email: info@niclabs.cl
 description:
   Page to collect and explain development practices at NICLabs.
-baseurl: "development" # the subpath of your site, e.g. /blog
+baseurl: "/development" # the subpath of your site, e.g. /blog
 url: "http://www.niclabs.cl" # the base hostname & protocol for your site
 twitter_username: niclabscl
 github_username:  niclabs
