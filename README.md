@@ -1,7 +1,7 @@
 # development
 Development practices and rules.
 
-This repository describe a guide of good practices to follow when developing software for NIC Chile Research Labs.
+This repository describes a set of good practices to follow when developing software for NIC Chile Research Labs.
 
 # Version Control
 Why is important to keep your files in a version control system and which one do we prefer.
