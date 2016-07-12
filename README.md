@@ -10,4 +10,4 @@ Why is important to keep your files in a version control system and which one do
 How do we work together in the same project.
 
 # Style guide
-Because a compiling code is not enough, how do we write code
+Because a compiling code is not enough, how do we write code.
