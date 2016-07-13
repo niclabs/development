@@ -13,7 +13,7 @@ A Version Control System (VCS) is a system that records changes to a file or set
 
   This is an example of a local VCS, but there is also software with more advanced feature to do version control locally. *(RCS)*
 
-- **Centralized VCS**: Many times people do not write code own their own, so they collaborate with different people. To solve this issue the Centralized VCS were developed. This type of system have a single server that contains all the files and client check out files from there. *(Subversion, CVS, Perforce)*
+- **Centralized VCS**: Many times people do not write code on their own, so they collaborate with different people. To solve this requirement Centralized VCSs were developed. This type of system have a single server that contains all the files and client check out files from there. *(Subversion, CVS, Perforce)*
 
 - **Distributed VCS**: Centralized solutions have an important caveat, there is a single point of failure, if the server goes down during that period nobody can collaborate. Distributed VCS clone a full backup of all the data at each client to solve this problems. *(Git, Mercurial, etc.)*
 
