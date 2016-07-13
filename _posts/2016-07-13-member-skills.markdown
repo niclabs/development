@@ -64,4 +64,4 @@ categories: dev
   - [Camilo Gómez][camilog]
 
 [fmontoto]: https://www.github.com/fmontoto
-[camilog]: https://www.github.com/camilgo
+[camilog]: https://www.github.com/camilog
