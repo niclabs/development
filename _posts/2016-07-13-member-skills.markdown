@@ -8,6 +8,8 @@ categories: dev
 
 ### Android
 
+  - [Camilo Gómez][camilog]
+
 ### Bash
 
   - [Francisco Montoto][fmontoto]
@@ -26,6 +28,8 @@ categories: dev
 
 ### Java
 
+  - [Camilo Gómez][camilog]
+
 ### Javascript
 
 ### Lua
@@ -33,18 +37,22 @@ categories: dev
 ### Python
 
   - [Francisco Montoto][fmontoto](django)
+  - [Camilo Gómez][camilog]
 
 # Tools / Technologies
 
 ### Docker
 
   - [Francisco Montoto][fmontoto]
+  - [Camilo Gómez][camilog]
 
 ### Git
 
   - [Francisco Montoto][fmontoto]
 
 ### Redis
+
+  - [Camilo Gómez][camilog]
 
 ### Vim
 
@@ -53,5 +61,7 @@ categories: dev
 ### ZeroMQ
 
   - [Francisco Montoto][fmontoto]
+  - [Camilo Gómez][camilog]
 
 [fmontoto]: https://www.github.com/fmontoto
+[camilog]: https://www.github.com/camilgo
