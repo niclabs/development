@@ -30,6 +30,7 @@ categories: dev
 ### Java
 
   - [Camilo Gómez][camilog]
+  - [Patricio Huepe][phfollert]
 
 ### Javascript
 
@@ -45,6 +46,7 @@ categories: dev
 
   - [Francisco Montoto][fmontoto](django)
   - [Camilo Gómez][camilog]
+  - [Patricio Huepe][phfollert]
 
 # Tools / Technologies
 
@@ -73,3 +75,4 @@ categories: dev
 [fmontoto]: https://www.github.com/fmontoto
 [camilog]: https://www.github.com/camilog
 [madestro]: https://www.github.com/madestro
+[phfollert]: https://www.github.com/phfollert
