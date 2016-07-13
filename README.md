@@ -5,10 +5,8 @@ This repository describes a set of good practices to follow when developing soft
 
 See the built repository at [NICLabs's page](http://www.niclabs.cl/development)
 
-# Version Control
+# [Version Control](http://www.niclabs.cl/development/index/dev/niclabs/2016/07/13/version-control.html)
 Why is important to keep your files in a version control system and which one do we prefer.
-
-[See the post](http://www.niclabs.cl/development/index/dev/niclabs/2016/07/13/version-control.html)
 
 # TODO
 
