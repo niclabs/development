@@ -17,6 +17,7 @@ categories: dev
 ### C
 
   - [Francisco Montoto][fmontoto]
+  - [Javier Bustos][madestro]
 
 ### C++
 
@@ -32,7 +33,13 @@ categories: dev
 
 ### Javascript
 
+  - [Javier Bustos][madestro]
+
 ### Lua
+
+### Perl
+
+  - [Javier Bustos][madestro]
 
 ### Python
 
