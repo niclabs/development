@@ -31,10 +31,12 @@ categories: dev
 
   - [Camilo Gómez][camilog]
   - [Patricio Huepe][phfollert]
+  - [Fernando Morales][nanocatdemen]
 
 ### Javascript
 
   - [Javier Bustos][madestro]
+  - [Fernando Morales][nanocatdemen]
 
 ### Lua
 
@@ -47,6 +49,7 @@ categories: dev
   - [Francisco Montoto][fmontoto](django)
   - [Camilo Gómez][camilog]
   - [Patricio Huepe][phfollert]
+  - [Fernando Morales][nanocatdemen]
 
 # Tools / Technologies
 
@@ -58,6 +61,7 @@ categories: dev
 ### Git
 
   - [Francisco Montoto][fmontoto]
+  - [Fernando Morales][nanocatdemen]
 
 ### Redis
 
@@ -76,3 +80,4 @@ categories: dev
 [camilog]: https://www.github.com/camilog
 [madestro]: https://www.github.com/madestro
 [phfollert]: https://www.github.com/phfollert
+[nanocatdemen]: https://www.github.com/nanocatdemen
