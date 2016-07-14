@@ -76,7 +76,6 @@ categories: dev
   - [Francisco Montoto][fmontoto]
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris]
-  - [Manuel Olguín][molguin92]
 
 ### Omnet++
 
