@@ -9,6 +9,7 @@ categories: dev
 ### Android
 
   - [Camilo Gómez][camilog]
+  - [Sebastián Blasco][sebablasko]
 
 ### Bash
 
@@ -26,6 +27,7 @@ categories: dev
 ### Erlang
 
 ### HTML
+  - [Sebastián Blasco][sebablasko]
 
 ### Java
 
@@ -33,6 +35,7 @@ categories: dev
   - [Patricio Huepe][phfollert]
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris]
+  - [Sebastián Blasco][sebablasko]
 
 ### Javascript
 
@@ -52,6 +55,7 @@ categories: dev
   - [Patricio Huepe][phfollert]
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris] (flask, django)
+  - [Sebastián Blasco][sebablasko]
 
 # Tools / Technologies
 
@@ -86,3 +90,4 @@ categories: dev
 [phfollert]: https://www.github.com/phfollert
 [nanocatdemen]: https://www.github.com/nanocatdemen
 [boris]: https://www.github.com/zeeerooo
+[sebablasko]: https://www.github.com/sebablasko
