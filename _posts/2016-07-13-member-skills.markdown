@@ -36,6 +36,7 @@ categories: dev
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris]
   - [Sebastián Blasco][sebablasko]
+  - [Tomás Wolf][twolfvb]
 
 ### Javascript
 
@@ -56,6 +57,7 @@ categories: dev
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris] (flask, django)
   - [Sebastián Blasco][sebablasko]
+  - [Tomás Wolf][twolfvb]
 
 # Tools / Technologies
 
@@ -91,3 +93,4 @@ categories: dev
 [nanocatdemen]: https://www.github.com/nanocatdemen
 [boris]: https://www.github.com/zeeerooo
 [sebablasko]: https://www.github.com/sebablasko
+[twolfvb]: https://github.com/twolfvb
