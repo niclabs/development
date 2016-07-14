@@ -21,6 +21,8 @@ categories: dev
   - [Javier Bustos][madestro]
 
 ### C++
+  
+  - [Manuel Olguín][molguin92](nivel intermedio)
 
 ### CSS
 
@@ -37,6 +39,7 @@ categories: dev
   - [Boris Romero][boris]
   - [Sebastián Blasco][sebablasko]
   - [Tomás Wolf][twolfvb]
+  - [Manuel Olguín][molguin92]
 
 ### Javascript
 
@@ -58,6 +61,7 @@ categories: dev
   - [Boris Romero][boris] (flask, django)
   - [Sebastián Blasco][sebablasko]
   - [Tomás Wolf][twolfvb]
+  - [Manuel Olguín][molguin92](flask)
 
 # Tools / Technologies
 
@@ -72,6 +76,11 @@ categories: dev
   - [Francisco Montoto][fmontoto]
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris]
+  - [Manuel Olguín][molguin92]
+
+### Omnet++
+
+  - [Manuel Olguín][molguin92]
 
 ### Redis
 
@@ -94,3 +103,4 @@ categories: dev
 [boris]: https://www.github.com/zeeerooo
 [sebablasko]: https://www.github.com/sebablasko
 [twolfvb]: https://github.com/twolfvb
+[molguin92]: https://github.com/molguin92
