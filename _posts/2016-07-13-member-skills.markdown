@@ -32,6 +32,7 @@ categories: dev
   - [Camilo Gómez][camilog]
   - [Patricio Huepe][phfollert]
   - [Fernando Morales][nanocatdemen]
+  - [Boris Romero][boris]
 
 ### Javascript
 
@@ -50,6 +51,7 @@ categories: dev
   - [Camilo Gómez][camilog]
   - [Patricio Huepe][phfollert]
   - [Fernando Morales][nanocatdemen]
+  - [Boris Romero][boris] (flask, django)
 
 # Tools / Technologies
 
@@ -57,11 +59,13 @@ categories: dev
 
   - [Francisco Montoto][fmontoto]
   - [Camilo Gómez][camilog]
+  - [Boris Romero][boris]
 
 ### Git
 
   - [Francisco Montoto][fmontoto]
   - [Fernando Morales][nanocatdemen]
+  - [Boris Romero][boris]
 
 ### Redis
 
@@ -81,3 +85,4 @@ categories: dev
 [madestro]: https://www.github.com/madestro
 [phfollert]: https://www.github.com/phfollert
 [nanocatdemen]: https://www.github.com/nanocatdemen
+[boris]: https://www.github.com/zeeerooo
