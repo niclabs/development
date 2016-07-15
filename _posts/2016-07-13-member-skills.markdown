@@ -10,6 +10,7 @@ categories: dev
 
   - [Camilo Gómez][camilog]
   - [Sebastián Blasco][sebablasko]
+  - [Diego Madariaga][dmadariaga]
 
 ### Bash
 
@@ -40,6 +41,7 @@ categories: dev
   - [Sebastián Blasco][sebablasko]
   - [Tomás Wolf][twolfvb]
   - [Manuel Olguín][molguin92]
+  - [Diego Madariaga][dmadariaga]
 
 ### Javascript
 
@@ -103,3 +105,4 @@ categories: dev
 [sebablasko]: https://www.github.com/sebablasko
 [twolfvb]: https://github.com/twolfvb
 [molguin92]: https://github.com/molguin92
+[dmadariaga]: https://github.com/dmadariaga
