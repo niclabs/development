@@ -11,6 +11,7 @@ categories: dev
   - [Camilo Gómez][camilog]
   - [Sebastián Blasco][sebablasko]
   - [Diego Madariaga][dmadariaga]
+  - [Salomón Torres][storress]
 
 ### Bash
 
@@ -42,6 +43,7 @@ categories: dev
   - [Tomás Wolf][twolfvb]
   - [Manuel Olguín][molguin92]
   - [Diego Madariaga][dmadariaga]
+  - [Salomón Torres][storress]
 
 ### Javascript
 
@@ -64,6 +66,7 @@ categories: dev
   - [Sebastián Blasco][sebablasko]
   - [Tomás Wolf][twolfvb]
   - [Manuel Olguín][molguin92](flask)
+  - [Salomón Torres][storress]
 
 # Tools / Technologies
 
@@ -106,3 +109,4 @@ categories: dev
 [twolfvb]: https://github.com/twolfvb
 [molguin92]: https://github.com/molguin92
 [dmadariaga]: https://github.com/dmadariaga
+[storress]: https://github.com/storress
