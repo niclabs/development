@@ -32,6 +32,7 @@ categories: dev
 
 ### HTML
   - [Sebastián Blasco][sebablasko]
+  - [Maite González][maitegm]
 
 ### Java
 
@@ -44,11 +45,13 @@ categories: dev
   - [Manuel Olguín][molguin92]
   - [Diego Madariaga][dmadariaga]
   - [Salomón Torres][storress]
+  - [Maite González][maitegm]
 
 ### Javascript
 
   - [Javier Bustos][madestro]
   - [Fernando Morales][nanocatdemen]
+  - [Maite González][maitegm](angularJS)
 
 ### Lua
 
@@ -67,8 +70,14 @@ categories: dev
   - [Tomás Wolf][twolfvb]
   - [Manuel Olguín][molguin92](flask)
   - [Salomón Torres][storress]
+  - [Maite González][maitegm](django)
 
 # Tools / Technologies
+
+
+### Arduino
+
+  - [Maite González][maitegm]
 
 ### Docker
 
@@ -81,6 +90,7 @@ categories: dev
   - [Francisco Montoto][fmontoto]
   - [Fernando Morales][nanocatdemen]
   - [Boris Romero][boris]
+  - [Maite González][maitegm]
 
 ### Omnet++
 
@@ -110,3 +120,6 @@ categories: dev
 [molguin92]: https://github.com/molguin92
 [dmadariaga]: https://github.com/dmadariaga
 [storress]: https://github.com/storress
+[maitegm]: https://github.com/maitegm
+
+
