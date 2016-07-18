@@ -28,11 +28,10 @@ categories: dev
 
 ### CSS
 
-### Erlang
-
 ### HTML
   - [Sebastián Blasco][sebablasko]
   - [Maite González][maitegm]
+  - [Caterina Muñoz][raticate]
 
 ### Java
 
@@ -46,12 +45,14 @@ categories: dev
   - [Diego Madariaga][dmadariaga]
   - [Salomón Torres][storress]
   - [Maite González][maitegm]
+  - [Caterina Muñoz][raticate]
 
 ### Javascript
 
   - [Javier Bustos][madestro]
   - [Fernando Morales][nanocatdemen]
   - [Maite González][maitegm](angularJS)
+  - [Caterina Muñoz][raticate](angularJS 1.X)
 
 ### Lua
 
@@ -71,6 +72,7 @@ categories: dev
   - [Manuel Olguín][molguin92](flask)
   - [Salomón Torres][storress]
   - [Maite González][maitegm](django)
+  - [Caterina Muñoz][raticate](flask)
 
 # Tools / Technologies
 
@@ -99,6 +101,7 @@ categories: dev
 ### Redis
 
   - [Camilo Gómez][camilog]
+  - [Caterina Muñoz][raticate]
 
 ### Vim
 
@@ -121,5 +124,6 @@ categories: dev
 [dmadariaga]: https://github.com/dmadariaga
 [storress]: https://github.com/storress
 [maitegm]: https://github.com/maitegm
+[raticate]: https://github.com/raticate
 
 
