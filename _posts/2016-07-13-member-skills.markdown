@@ -6,13 +6,6 @@ categories: dev
 ---
 # Languages
 
-### Android
-
-  - [Camilo Gómez][camilog]
-  - [Sebastián Blasco][sebablasko]
-  - [Diego Madariaga][dmadariaga]
-  - [Salomón Torres][storress]
-
 ### Bash
 
   - [Francisco Montoto][fmontoto]
@@ -51,8 +44,8 @@ categories: dev
 
   - [Javier Bustos][madestro]
   - [Fernando Morales][nanocatdemen]
-  - [Maite González][maitegm](angularJS)
-  - [Caterina Muñoz][raticate](angularJS 1.X)
+  - [Maite González][maitegm]
+  - [Caterina Muñoz][raticate]
 
 ### Lua
 
@@ -62,20 +55,48 @@ categories: dev
 
 ### Python
 
-  - [Francisco Montoto][fmontoto](django)
+  - [Francisco Montoto][fmontoto]
   - [Camilo Gómez][camilog]
   - [Patricio Huepe][phfollert]
   - [Fernando Morales][nanocatdemen]
-  - [Boris Romero][boris] (flask, django)
+  - [Boris Romero][boris]
   - [Sebastián Blasco][sebablasko]
   - [Tomás Wolf][twolfvb]
-  - [Manuel Olguín][molguin92](flask)
+  - [Manuel Olguín][molguin92]
   - [Salomón Torres][storress]
-  - [Maite González][maitegm](django)
-  - [Caterina Muñoz][raticate](flask)
+  - [Maite González][maitegm]
+  - [Caterina Muñoz][raticate]
+
+
+# Frameworks
+
+### Android (Java)
+
+  - [Camilo Gómez][camilog]
+  - [Sebastián Blasco][sebablasko]
+  - [Diego Madariaga][dmadariaga]
+  - [Salomón Torres][storress]
+  - 
+  
+### AngularJS (Javascript)
+  - [Maite González][maitegm]
+  - [Caterina Muñoz][raticate](1.X)
+
+
+### Django (Python)
+
+  - [Francisco Montoto][fmontoto]
+  - [Boris Romero][boris]
+  - [Maite González][maitegm]
+
+### Flask (Python)
+
+  - [Boris Romero][boris]
+  - [Manuel Olguín][molguin92]
+  - [Caterina Muñoz][raticate]
+
 
 # Tools / Technologies
-
 
 ### Arduino
 
