@@ -76,7 +76,6 @@ categories: dev
   - [Sebastián Blasco][sebablasko]
   - [Diego Madariaga][dmadariaga]
   - [Salomón Torres][storress]
-  - 
   
 ### AngularJS (Javascript)
   - [Maite González][maitegm]
