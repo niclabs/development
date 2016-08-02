@@ -138,7 +138,6 @@ categories: dev
   - [Francisco Montoto][fmontoto]
   - [Camilo Gómez][camilog]
 
-
 [fmontoto]: https://www.github.com/fmontoto
 [camilog]: https://www.github.com/camilog
 [madestro]: https://www.github.com/madestro
