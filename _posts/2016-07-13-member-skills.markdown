@@ -16,12 +16,13 @@ categories: dev
   - [Javier Bustos][madestro]
 
 ### C++
-  
+
   - [Manuel Olguín][molguin92](nivel intermedio)
 
 ### CSS
 
 ### HTML
+
   - [Sebastián Blasco][sebablasko]
   - [Maite González][maitegm]
   - [Caterina Muñoz][raticate]
@@ -39,6 +40,7 @@ categories: dev
   - [Salomón Torres][storress]
   - [Maite González][maitegm]
   - [Caterina Muñoz][raticate]
+  - [Felipe Quintanilla][fquintan]
 
 ### Javascript
 
@@ -46,6 +48,7 @@ categories: dev
   - [Fernando Morales][nanocatdemen]
   - [Maite González][maitegm]
   - [Caterina Muñoz][raticate]
+  - [Felipe Quintanilla][fquintan]
 
 ### Lua
 
@@ -66,6 +69,7 @@ categories: dev
   - [Salomón Torres][storress]
   - [Maite González][maitegm]
   - [Caterina Muñoz][raticate]
+  - [Felipe Quintanilla][fquintan]
 
 
 # Frameworks
@@ -76,7 +80,9 @@ categories: dev
   - [Sebastián Blasco][sebablasko]
   - [Diego Madariaga][dmadariaga]
   - [Salomón Torres][storress]
-  
+  - [Felipe Quintanilla][fquintan]
+
+
 ### AngularJS (Javascript)
   - [Maite González][maitegm]
   - [Caterina Muñoz][raticate](1.X)
@@ -93,7 +99,7 @@ categories: dev
   - [Boris Romero][boris]
   - [Manuel Olguín][molguin92]
   - [Caterina Muñoz][raticate]
-
+  - [Felipe Quintanilla][fquintan]
 
 # Tools / Technologies
 
@@ -145,5 +151,4 @@ categories: dev
 [storress]: https://github.com/storress
 [maitegm]: https://github.com/maitegm
 [raticate]: https://github.com/raticate
-
-
+[fquintan]: https://github.com/fquintan
