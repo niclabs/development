@@ -102,19 +102,27 @@ At this point you have the bug fixed at the `fix-issue23` branch, but you need t
    Don't forget to assign someone to review the request, usually one of the project maintainers. If there isn't more people working in the project ask someone in the Lab to review it, prefer someone with knowledge of the language [check here](http://niclabs.cl/development/dev/2016/07/13/member-skills.html).
 
 #### Moving the hotfix to the development branch
-If you have a development branch you also want to apply the changes to it. How to do it is still an [open question](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/), and there are mainly two options, we do prefer the first one:
+If you have a development branch you also want to apply the changes to it. How to do it is still an [open question](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/), and there are mainly three options, we do prefer the first one:
 
 1. Rebase
 
    ```shell
-   git checkout development
-   git rebase master
+   git checkout development # Move to  development branch
+   git rebase master # Rebase development branch
    ```
 
 2. Merge
 
    ```shell
-   git checkout development
-   git merge master
+   git checkout development # Move to  development branch
+   git merge master # Merge development branch with master
 
+   ```
+
+3. Merge hotfix branch
+   If you created a hotfix branch you could merge it directly to the development branch after you have merged it with the default branch.
+
+   ```shell
+   git checkout development # Move to  development branch
+   git merge fix-issue23 # Merge development branch with the hotfix branch
    ```
