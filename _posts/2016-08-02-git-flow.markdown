@@ -8,6 +8,7 @@ categories: dev git
 This tutorial does not require a deep understanding of git, however some
 experience will be very helpful, if you're new at git you could learn most
 important things [here](https://try.github.io/levels/1/challenges/1).
+Most of the practices described here are based in [this](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) tutorial.
 
 # Getting the repository
 
@@ -116,7 +117,6 @@ If you have a development branch you also want to apply the changes to it. How t
    ```shell
    git checkout development # Move to  development branch
    git merge master # Merge development branch with master
-
    ```
 
 3. Merge hotfix branch
