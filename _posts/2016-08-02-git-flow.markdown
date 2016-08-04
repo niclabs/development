@@ -6,7 +6,7 @@ categories: dev git
 ---
 
 This tutorial does not require a deep understanding of git, however some
-experience will be very helpful, if you're new at git you could learn most
+experience will be very helpful. If you're new at git you could learn most
 important things [here](https://try.github.io/levels/1/challenges/1).
 If you don't know what git is you might want to read this [small article](http://niclabs.cl/development/index/dev/niclabs/2016/07/13/version-control.html) first.
 
