@@ -12,13 +12,15 @@ If you don't know what git is you might want to read this [small article](http:/
 
 Most of the practices described here are based in [this](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) tutorial.
 
+There is an interesting tool you can use for high level operations in git flow: [git-flow-cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/)
+
 # Getting the repository
 
 ## Creating a new repository
 
 Go to *https://www.github.com/niclabs* and create a new repository.
 
-## Clone the repository into your computer
+## Clone an existent repository
 
 ```shell
 git clone https://www.github.com/niclabs/<repo-name>.git
@@ -32,13 +34,13 @@ Now you are at the default branch of the repository, usually `master`. You can c
 git branch
 ```
 
-When you clone a repository you will get all the branches from it, to see them type `git branch --all`. There will be prepended by `remotes/origin`, remotes indicates it is a remote branch and origin is the name of the remote repository.
+When you clone a repository you will get all the branches from it, to see them type `git branch --all`. They will be prepended by `remotes/origin`, remotes indicates it is a remote branch and origin is the name of the remote repository.
 
 ## New Feature / Issue
 
 You are adding a new feature to the project or trying to solve an open issue, this does not include high priority fixes (see [hotfix](#hotfix) for that). This is usually the case during a development.
 
-If your project is big enough it will have a development branch different from master, most of the time will have an straight forward name as `develop`, `dev`, etc.. We'll call it `dev` but check with the repository maintainer for the name at the repository you're working at. If there isn't a development branch ask for creating one or use master, however we highly discourage you to use master as development branch.
+If your project is big enough it will have a development branch different from master, most of the time it will have an straight forward name as `develop`, `dev`, etc.. We'll call it `dev` but check with the repository maintainer for the particular name in the repository you're working at. If there isn't a development branch ask for creating one or use master. However, we strongly encourage you to use master as release branch.
 
 ```shell
 git checkout dev # Go to the development branch
@@ -46,7 +48,10 @@ git pull # Pull if there are new changes
 git checkout -b new-feature # Create new branch
 git add new_feature.c # Add file with new feature
 git commit -m 'add new_feature.c with new_feature working' # Commit the changes
-git push -u origin new-feature # This will send the new branch to the remote and track it (this mean in future changes you can just say "push" and git will now where to push).
+git push -u origin new-feature # This will send the new branch to the remote
+                               # and track it (this mean in future changes you
+                               # can just say "push" and git will now where to
+                               # push).
 git add main.c # Add modified file
 git commit -m 'Add new_feature at main flow as default' # Commit the changes
 git push # Send the commit to the remote repository.
@@ -60,7 +65,7 @@ Then just [create a pull request](#pullrequest)
 You have to fix a high priority bug as soon as possible.
 
 #### Option 1
-Push to the remote server a commit directly in the default branch:
+Push a commit to the remote server directly in the default branch:
 
 ```shell
 git add lib.c # After lib.c is modified, add it to the staging area.
@@ -96,7 +101,7 @@ At this point you have the bug fixed at the `fix-issue23` branch, but you need t
    ```
 2. <a name="pullrequest"></a>Start a Pull Request:
 
-   This is the preferred way to add any change at the remote repository, we strongly encourage you tu use them, however is acceptable no to use a Pull Request when doing a hotfix.
+   This is the preferred way to add any change at the remote repository, we strongly encourage you tu use them, however is acceptable not to use a Pull Request when doing a hotfix.
 
    Pull requests let you tell others about changes you've pushed to a repository on GitHub. [Read More](https://help.github.com/articles/using-pull-requests/).
 
