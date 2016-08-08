@@ -16,120 +16,122 @@ There is an interesting tool you can use for high level operations in git flow: 
 
 # Getting the repository
 
-## Creating a new repository
+- ### Creating a new repository
+   Go to *https://www.github.com/niclabs* and create a new repository.
 
-Go to *https://www.github.com/niclabs* and create a new repository.
+- ### Clone an existent repository
 
-## Clone an existent repository
+   ```shell
+   git clone https://www.github.com/niclabs/<repo-name>.git
+   ```
 
-```shell
-git clone https://www.github.com/niclabs/<repo-name>.git
-```
+# Working on the repository
 
-# Choosing a branch to work on
+- ### Choosing a branch to work on
 
-Now you are at the default branch of the repository, usually `master`. You can check the branch you are at with
+  Now you are at the default branch of the repository, usually `master`. You can check the branch you are at with
 
-```shell
-git branch
-```
+    ```shell
+    git branch
+    ```
 
-When you clone a repository you will get all the branches from it, to see them type `git branch --all`. They will be prepended by `remotes/origin`, remotes indicates it is a remote branch and origin is the name of the remote repository.
+  When you clone a repository you will get all the branches from it, to see them type `git branch --all`. They will be prepended by `remotes/origin`, remotes indicates it is a remote branch and origin is the name of the remote repository.
 
-## New Feature / Issue
+- ### Developing a new feature / issue
 
-You are adding a new feature to the project or trying to solve an open issue, this does not include high priority fixes (see [hotfix](#hotfix) for that). This is usually the case during a development.
+  This is the case when you are adding a new feature to the project or trying to solve an open issue, this does not include high priority fixes (see [hotfix](#hotfix) for that). This is usually the case during a development.
 
-If your project is big enough it will have a development branch different from master, most of the time it will have an straight forward name as `develop`, `dev`, etc.. We'll call it `dev` but check with the repository maintainer for the particular name in the repository you're working at. If there isn't a development branch ask for creating one or use master. However, we strongly encourage you to use master as release branch.
+  If your project is big enough it will have a development branch different from master, most of the time it will have an straight forward name as `develop`, `dev`, etc.. We'll call it `dev` but check with the repository maintainer for the particular name in the repository you're working at. If there isn't a development branch ask for creating one or use master. However, we strongly encourage you to use master as release branch.
 
-```shell
-git checkout dev # Go to the development branch
-git pull # Pull if there are new changes
-git checkout -b new-feature # Create new branch
-git add new_feature.c # Add file with new feature
-git commit -m 'add new_feature.c with new_feature working' # Commit the changes
-git push -u origin new-feature # This will send the new branch to the remote
-                               # and track it (this mean in future changes you
-                               # can just say "push" and git will now where to
-                               # push).
-git add main.c # Add modified file
-git commit -m 'Add new_feature at main flow as default' # Commit the changes
-git push # Send the commit to the remote repository.
-```
+  ```shell
+  git checkout dev # Go to the development branch
+  git pull # Pull if there are new changes
+  git checkout -b new-feature # Create new branch
+  git add new_feature.c # Add file with new feature
+  git commit -m 'add new_feature.c with new_feature working' # Commit the changes
+  git push -u origin new-feature # This will send the new branch to the remote
+                                 # and track it (this mean in future changes you
+                                 # can just say "push" and git will now where to
+                                 # push).
+  git add main.c # Add modified file
+  git commit -m 'Add new_feature at main flow as default' # Commit the changes
+  git push # Send the commit to the remote repository.
+  ```
 
-Then just [create a pull request](#pullrequest)
+  Then just [create a pull request](#pullrequest)
 
 
 ## <a name="hotfix"></a>Hotfix
 
-You have to fix a high priority bug as soon as possible.
+  This is the case when you have to fix a high priority bug as soon as possible.
 
-#### Option 1
-Push a commit to the remote server directly in the default branch:
+  1. ### Pushing the change
+     - #### Option 1
+       Push a commit to the remote server directly in the default branch:
 
-```shell
-git add lib.c # After lib.c is modified, add it to the staging area.
-git commit -m 'fix #23, syntax error at lib.c' # Commit the changes
-git push # Send the commit to the remote repository.
-```
+       ```shell
+       git add lib.c # After lib.c is modified, add it to the staging area.
+       git commit -m 'fix #23, syntax error at lib.c' # Commit the changes
+       git push # Send the commit to the remote repository.
+       ```
 
-Did you see `fix #23`? This indicates to [github](https://help.github.com/articles/closing-issues-via-commit-messages/) this commit is fixing the issue 23, so it should be closed.
+       Did you see `fix #23`? This indicates to [github](https://help.github.com/articles/closing-issues-via-commit-messages/) this commit is fixing the issue 23, so it should be closed.
 
-#### Option 2
+     - #### Option 2
 
-Create a hotfix branch from the default branch.
+       Create a hotfix branch from the default branch.
 
-```shell
-git checkout -b fix-issue23 # Creates and checkout (move) to a new branch named fix-issue23
-git add main.c # After is modified, add main.c to the staging area.
-git commit -m 'return 1 on file not found at main.c' # Commit the changes
-git add lib.c # After is modified, add lib.c to the staging area.
-git commit -m 'fix #23, syntax error at lib.c'
-git push -u origin fix-issue23 # This will send the new branch to the remote and track it.
-```
+       ```shell
+       git checkout -b fix-issue23 # Creates and checkout (move) to a new branch named fix-issue23
+       git add main.c # After is modified, add main.c to the staging area.
+       git commit -m 'return 1 on file not found at main.c' # Commit the changes
+       git add lib.c # After is modified, add lib.c to the staging area.
+       git commit -m 'fix #23, syntax error at lib.c'
+       git push -u origin fix-issue23 # This will send the new branch to the remote and track it.
+       ```
 
-At this point you have the bug fixed at the `fix-issue23` branch, but you need to fix it at the default branch. You have to merge `fix-issue23` into the default branch. We have to ways to do this:
+       At this point you have the bug fixed at the `fix-issue23` branch, but you need to fix it at the default branch. You have to merge `fix-issue23` into the default branch. We have to ways to do this:
 
-1. Merge directly:
+       1. Merge directly:
 
-   ```shell
-   git checkout master # Go to the default branch.
-   git merge fix-issue23 # Merge fix-issue23
-   git push # Push the merged master branch to the remote
-   git branch -d fix-issue23 # Remove the branch locally
-   git push origin --delete fix-issue23 # Remove the remote branch (you can also do this at github webpage).
-   ```
-2. <a name="pullrequest"></a>Start a Pull Request:
+          ```shell
+          git checkout master # Go to the default branch.
+          git merge fix-issue23 # Merge fix-issue23
+          git push # Push the merged master branch to the remote
+          git branch -d fix-issue23 # Remove the branch locally
+          git push origin --delete fix-issue23 # Remove the remote branch (you can also do this at github webpage).
+          ```
+       2. <a name="pullrequest"></a>Start a Pull Request:
 
-   This is the preferred way to add any change at the remote repository, we strongly encourage you tu use them, however is acceptable not to use a Pull Request when doing a hotfix.
+          This is the preferred way to add any change at the remote repository, we strongly encourage you tu use them, however is acceptable not to use a Pull Request when doing a hotfix.
 
-   Pull requests let you tell others about changes you've pushed to a repository on GitHub. [Read More](https://help.github.com/articles/using-pull-requests/).
+          Pull requests let you tell others about changes you've pushed to a repository on GitHub. [Read More](https://help.github.com/articles/using-pull-requests/).
 
-   How to create a Pull Request: [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/).
+          How to create a Pull Request: [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/).
 
-   Don't forget to assign someone to review the request, usually one of the project maintainers. If there isn't more people working in the project ask someone in the Lab to review it, prefer someone with knowledge of the language [check here](http://niclabs.cl/development/dev/2016/07/13/member-skills.html).
+          Don't forget to assign someone to review the request, usually one of the project maintainers. If there isn't more people working in the project ask someone in the Lab to review it, prefer someone with knowledge of the language [check here](http://niclabs.cl/development/dev/2016/07/13/member-skills.html).
 
-#### Moving the hotfix to the development branch
-If you have a development branch you also want to apply the changes to it. How to do it is still an [open question](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/), and there are mainly three options, we do prefer the first one:
+  2. ### Moving the hotfix to the development branch
+     If you have a development branch you also want to apply the changes to it. How to do it is still an [open question](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/), and there are mainly three options, we do prefer the first one:
 
-1. Rebase
+     1. Rebase
 
-   ```shell
-   git checkout development # Move to  development branch
-   git rebase master # Rebase development branch
-   ```
+        ```shell
+        git checkout development # Move to  development branch
+        git rebase master # Rebase development branch
+        ```
 
-2. Merge
+     2. Merge
 
-   ```shell
-   git checkout development # Move to  development branch
-   git merge master # Merge development branch with master
-   ```
+        ```shell
+        git checkout development # Move to  development branch
+        git merge master # Merge development branch with master
+        ```
 
-3. Merge hotfix branch
-   If you created a hotfix branch you could merge it directly to the development branch after you have merged it with the default branch.
+     3. Merge hotfix branch
+        If you created a hotfix branch you could merge it directly to the development branch after you have merged it with the default branch.
 
-   ```shell
-   git checkout development # Move to  development branch
-   git merge fix-issue23 # Merge development branch with the hotfix branch
-   ```
+        ```shell
+        git checkout development # Move to  development branch
+        git merge fix-issue23 # Merge development branch with the hotfix branch
+        ```
